@@ -1,0 +1,221 @@
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+body {
+    margin: 0;
+
+}
+
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+
+/*///////////// 3.1 Header /////////////*/
+.header {
+    background: center / cover no-repeat url("../assets/images/mountains.jpg");
+    height: 500px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    color: #1C2B32;
+}
+
+.title {
+    font-size: 80px;
+    margin-bottom: 0;
+}
+
+.searchbox {
+    display: flex;
+
+}
+
+.search-text {
+    all: unset;
+    border-radius: 50px 0 0 50px;
+    background-color: transparent;
+    height: 50px;
+    width: 250px;
+    padding: 0 0 0 20px;
+    border: 2px solid #1C2B32;
+    margin: 0;
+    font: 12px Poppins;
+    box-sizing: border-box;
+    color: #1C2B32;
+
+
+
+}
+.search-text::placeholder{
+    color: #1C2B32;
+}
+.vragen {
+    all: unset;
+    background-color: #1C2B32;
+    color: white;
+    border-radius: 0 50px 50px 0;
+    height: 50px;
+    width: 250px;
+    border: none;
+    padding: 0;
+    font: 12px Poppins;
+    outline: none;
+    margin: 0;
+    text-align: center;
+
+
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 40px;
+}
+
+/*///////////// 3.2 Testimonial /////////////*/
+.main-title {
+    display: flex;
+    justify-content: center;
+    font: bold 20px Poppins;
+    margin: 0;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
+    padding: 32px;
+    box-shadow: 0px 0px 10px 5px lightgrey;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.quote {
+    height: 25px;
+
+}
+
+.avatar {
+    height: 40px;
+
+}
+
+.funtie {
+    display: inline;
+
+}
+
+.identification {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/*///////////// 3.3 Support /////////////*/
+.callcenter {
+    max-width: 1000px;
+    width: 100%;
+    border-radius: 8px;
+
+
+}
+
+.contact-conteiner {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.contact {
+    all: unset;
+    background-color: #1C2B32;
+    color: white;
+    border-radius: 50px;
+    height: 40px;
+    width: 125px;
+    border: none;
+    padding: 0;
+    font: 12px Poppins;
+    outline: none;
+    margin: 0;
+    text-align: center;
+
+
+}
+
+/*///////////// 3.4 Faq /////////////*/
+.help {
+    width: 100%;
+    max-width: 1000px;
+    min-width: 300px;
+    font-size: 12px;
+
+}
+
+.lista {
+    width: 100%;
+    max-width: 1000px;
+    list-style: "ᐅ ";
+
+}
+
+.faq-antwoord {
+    display: none;
+    border-radius: 8px;
+    color: white;
+    background: #3c4747;
+    padding: 16px;
+
+
+}
+
+.faq-vragen {
+    cursor: pointer;
+
+}
+
+.faq-vragen:hover .faq-antwoord {
+    display: block;
+}
+
+
+/*///////////// 3.5 Footer /////////////*/
+.footer {
+    display: flex;
+    justify-content: center;
+    background:#1C2B32;
+    color: white;
+    height: 48px;
+    align-items: center;
+
+
+
+}
